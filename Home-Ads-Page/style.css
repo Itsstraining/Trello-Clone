@@ -1,0 +1,162 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo a{
+    padding: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bnt-daskboard{
+    background-color: #38f376;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.bnt-begin{
+    background-color: #3883f3;
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.bnt-plan{
+    background-color: chartreuse;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.bnt-How{
+    background-color: rgb(255, 205, 224);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.quick-signup{
+    background-color: #e0f338;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.signup{
+    background-color: #f338da;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.selectpicker{
+    background-color: aqua;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.content{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lead{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.content1{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+    
+}
+
+.content2{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.content3{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.content4{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.content5{
+    margin: 0;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #172B4D;
+    text-align: left;
+    background-color: #fff;
+    box-sizing: border-box;
+}
