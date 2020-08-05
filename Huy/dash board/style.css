@@ -64,8 +64,64 @@ input[type=text]:focus {
     justify-content: flex-end;
 }
 
-.icon_Ten {
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.mainSrceen {
+    margin-top: 25px;
+    margin-left: 140px;
+    padding: 0px 10px;
+}
+
+.iconheader {
+    line-height: 10px;
+    width: 20px;
+}
+
+.topic {
+    width: 200px;
+    height: 100px;
+    background: green;
+    border-radius: 5%;
     display: flex;
-    justify-content: center;
-    background-color: #f4f5f7;
+}
+
+.topic:hover {
+    background: yellow;
+}
+
+.chu {
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+
+.cardContainer {
+    width: 200px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.cardTitle {
+    word-wrap: break-word
 }
