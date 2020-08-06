@@ -12,77 +12,118 @@
     <div class="container">
         <div class="header">
             <div class="logo">
-                <a href="" target="_blank">
-                    <img src="tải xuống.jpg" alt="logo" width="100px" height="40px">
-                </a>
+                <img src="800px-Trello_logo.svg.png" alt="logo" width="100px" height="40px">
             </div>
-            <div style="display: flex;justify-content: center;" class="logo1">
-                <a href="" target="_blank">
-                    <img src="TrelloGoldLogo.png" alt="logo" width="100px" height="40px">
-                </a>
-            </div>
-            <div style="display: flex;justify-content: center;flex-direction: column;
+           
+            <div id="task1" style="display: flex;justify-content: center;flex-direction: column;
             text-align: center;" class="content">
                 <h1>Chào mừng đến với Trello!</h1>
                 <p>Chào mừng đến với Trello!
                     Bạn có thể sắp xếp mọi thứ bằng bảng Trello(điều đó ở bên dưới).
-                    Bắt đầu bằng cách đặt tên bảng của bạn, điều gì đó liên quan đến dự án bạn đang làm việc, hoặc những gì bạn cần làm.</p>
-                <input name="ex" class="favorite" type="text" placeholder="begin with your favorite">
+                    Bắt đầu bằng cách đặt tên bảng của bạn, điều gì đó liên quan đến dự án bạn đang làm việc, hoặc những
+                    gì bạn cần làm.</p>
+               
+                <form class="quick-text" method="POST" action="/text_redirect">
+                     <input name="ex" class="favorite" type="text" placeholder="begin with your favorite">
+                </form>
                 <img src="Annotation 2020-08-05 152907.png" alt="">
+           
             </div>
-            <div style="display: flex;justify-content: flex-start;flex-direction: row;">
+            <button id="task1" onclick="task(this.id)">tiếp nào</button>
+            <div id="task2" style="display: flex;justify-content: flex-start;flex-direction: row;">
+               
                 <div class="content1" style="display: inline-block;">
-                    <h2 style="display: inline-block;">Các tính năng và giải pháp tích hợp mạnh mẽ cho nhóm của bạn</h2>
-                    <p>Giúp Trello kiểm soát nhiệm vụ nhóm của bạn cho bất kỳ dự án nào, và nâng cấp bảng bằng quyền
-                        truy cập không giới hạn vào các tính năng nâng cao và Power-Ups như:</p>
+                    <h2 style="display: inline-block;">Tạo cấu trúc với các danh sách</h2>
+                    <p>Tạo cấu trúc với các danh sách
+                        Danh sách là một tập hợp các thẻ. Đó có thể là một tập hợp các ý tưởng, một nhóm các nhiệm vụ
+                        hoặc một giai đoạn trong một dự án. Bạn sẽ thêm thẻ vào danh sách của mình tiếp theo.
+
+                        Nhiều người muốn bắt đầu với:</p>
                     <ul>
-                        <li>Danh sách công việc nâng cao</li>
-                        <li>Trường tùy chỉnh</li>
-                        <li>Giới hạn danh sách</li>
-                        <li>Lặp lại thẻ</li>
-                        <li>Dạng xem lịch & bản đồ</li>
-                        <li>Bình chọn</li>
-                        <li>Hơn 100 giải pháp tích hợp ứng dụng với các công cụ làm việc hàng đầu của bạn</li>
+                        <li>Những việc cần làm</li>
+                        <li>Đang làm</li>
+                        <li>Hoàn tất</li>
                     </ul>
+                    <p>Tiếp tục và đặt lại tên các danh sách của bạn nếu bạn muốn!</p>
                 </div>
-                <img src="powerful-features.webp" alt="">
+                <img src="Annotation 2020-08-06 090734.png" alt=""> 
+                
             </div>
-            <div style="display: flex;justify-content: flex-start;flex-direction: row;">
+            <button id="task2" onclick="task(this.id)">chuyển tiếp</button>
+
+            <div id="task3" style="display: flex;justify-content: flex-start;flex-direction: row;">
+                
                 <img src="Annotation 2020-08-04 165201.png" alt="">
                 <div class="content2" style="display: inline-block;">
-                    <h3 style="display: inline-block;">Tự động hóa quy trình làm việc tích hợp sẵn nhờ Butler</h3>
-                    <p>Hãy để robot làm việc! Tăng năng suất bằng cách giải phóng sức mạnh tự động hóa trong toàn bộ
-                        nhóm của bạn nhờ Butler và loại bỏ các công việc tẻ nhạt khỏi danh sách việc cần làm của bạn
-                        nhờ:</p>
-                    <ul>
-                        <li>Kích hoạt dựa trên quy tắc</li>
-                        <li>Thẻ tùy chỉnh & các nút bảng</li>
-                        <li>Lệnh lịch</li>
-                        <li>Lệnh ngày hết hạn</li>
-                    </ul>
+                    <h3 style="display: inline-block;">Giảm tải với các thẻ</h3>
+                    <p>Giảm tải với các thẻ
+                        Tạo thẻ cho những việc mà bạn cần làm, tổ chức sắp xếp, hay chỉ là những việc vừa nảy ra trong
+                        đầu bạn.
+
+                        Thêm tiêu đề cho một số thẻ trong Những việc cần làm danh sách của bạn:</p>
+                    <form class="quick-text" method="POST" action="/text_redirect">
+                        <ul>
+                            <li><input name="Vd" class="list" type="text" placeholder="Vd: đặt vé máy bay"></li>
+                            <li><input name="Vd" class="list" type="text" placeholder="Vd: tìm khách sạn"></li>
+                            <li><input name="Vd" class="list" type="text" placeholder="Vd: gọi người nuôi chó"></li>
+                        </ul>
+                    </form>
                 </div>
+                
 
             </div>
-            
-            
-            <div style="display: flex;justify-content: center;flex-direction: column;">
+            <button id="task3" onclick="task(this.id)">tiếp tục thôi</button>
 
-                <div class="content3" style="display: inline-block;display:flex;flex-direction: column;text-align: center;">
-                    <h4 style="display: inline-block;">Bổ sung các tính năng bảo mật để bảo vệ cho nhóm của bạn</h4>
-                    <img src="brain-guards.webp" alt="" width="450px" height="350px" style="margin: 0 auto;">
-                    <p>Bảo vệ đội ngũ và dữ liệu của bạn với các công cụ quản lý hiệu quả như quản lý thành viên, cài
-                        đặt chế độ hiển thị bảng tin, tính năng giới hạn khách và nhiều hơn thế.</p>
+
+            <div id="task4" style="display: flex;justify-content: center;flex-direction: column;">
+                
+                <div class="content3"
+                    style="display: inline-block;display:flex;flex-direction: column;text-align: center;">
+                    <h4 style="display: inline-block;">Đi vào chi tiết</h4>
+                    <img src="Annotation 2020-08-06 092132.png" alt="" width="450px" height="350px"
+                        style="margin: 0 auto;">
+                    <p>Đi vào chi tiết
+                        Khi bạn nhấp vào thẻ, bạn có thể thêm bất kỳ loại thông tin nào vào thẻ. Đính kèm tệp, thêm danh
+                        sách công việc, đăng nhận xét, danh sách sẽ tiếp tục…
+
+                        Bắt đầu bằng cách thêm mục danh sách công việc vào thẻ của bạn:</p>
+                    <form class="quick-text" method="POST" action="/text_redirect">
+                        <li><input name="Vd" class="list" type="text" placeholder="Vd: Làm việc gì đó..."></li>
+                    </form>
                 </div>
+            </div>
+            <button id="task4" onclick="task(this.id)">cuối cùng là</button>
+
+            <div id="task5" class="content4"
+                style="display: inline-block;display:flex;flex-direction: column;text-align: center;">
+                <h4 style="display: inline-block;">Bạn đã bắt đầu!</h4>
+                <img src="vi-card-drag.0c35beb1605ed98a3140.gif" alt="" width="450px" height="350px"
+                    style="margin: 0 auto;">
+                <p>Bây giờ bạn đã hiểu những điều cơ bản của bảng, danh sách và thẻ, bạn có thể sử dụng Trello để
+                    phù hợp với nhu cầu của bạn, bất kể nhu cầu đó là gì!</p>
+                <button class="bnt-begin"><a href="" target="_blank">Giờ bạn đã là dân chuyên! Hãy tiếp tục xây
+                        dựng bảng của bạn</a></button>
 
             </div>
-
-
-
 
 
 
         </div>
     </div>
+    <script>
+       function task(task) {
+        var x = document.getElementById(task);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+             }
+    }
+
+
+      
+
+    </script>
 </body>
 
 </html>
