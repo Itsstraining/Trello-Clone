@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 } */
-
+body{
+    background-color: #a7d8d4;
+}
 .logo{
     display: flex;
     justify-content: space-evenly;
@@ -13,13 +15,13 @@
 .logo a{
     padding: 15px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: black;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .bnt-daskboard{
-    background-color: #38f376;
+    background-color: lightskyblue;
     height: 40px;
     border: none;
     outline: none;
@@ -27,7 +29,7 @@
 }
 
 .bnt-begin{
-    background-color: #3883f3;
+    background-color: #6D8EA2;
     height: 40px;
     width: 300px;
     border: none;
@@ -37,7 +39,7 @@
 }
 
 .bnt-plan{
-    background-color: chartreuse;
+    background-color: lightskyblue;
     height: 40px;
     border: none;
     outline: none;
@@ -45,29 +47,28 @@
 }
 
 .bnt-How{
-    background-color: rgb(255, 205, 224);
+    background-color:lightskyblue;
     height: 40px;
     border: none;
     outline: none;
     border-radius: 30px;
 }
 .quick-signup{
-    background-color: #e0f338;
-    height: 30px;
+    background-color: white;
     border: none;
     outline: none;
     border-radius: 30px;
 }
 
 .signup{
-    background-color: #f338da;
+    background-color: dodgerblue;
     height: 30px;
     border: none;
     outline: none;
     border-radius: 30px;
 }
 .selectpicker{
-    background-color: aqua;
+    background-color: lightskyblue;
     height: 40px;
     border: none;
     outline: none;
@@ -80,9 +81,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
@@ -106,9 +107,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
     
 }
@@ -119,9 +120,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
 
@@ -131,9 +132,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
 
@@ -143,9 +144,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
 
@@ -155,9 +156,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
 
@@ -166,9 +167,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }    
 
@@ -177,9 +178,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
 
@@ -188,8 +189,8 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #172B4D;
+   
     text-align: left;
-    background-color: #fff;
+    
     box-sizing: border-box;
 }
