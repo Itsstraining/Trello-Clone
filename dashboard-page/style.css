@@ -143,6 +143,8 @@ input[type=text]:focus {
     border: 1px solid #000000;
     cursor: pointer;
     margin-left: 5px;
+    border-radius: 5px 5px 5px 5px;
+    line-height: 2em
 }
 
 .sidenav-info-cre {
@@ -152,4 +154,9 @@ input[type=text]:focus {
 
 .sidenav-info-cre:hover {
     background-color: lightgrey;
+}
+
+.bnt-avt {
+    background-color: #A7D8D4;
+    border: none;
 }
