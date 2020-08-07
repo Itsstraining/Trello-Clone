@@ -1,0 +1,110 @@
+.menu > nav a{
+    display:inline-block;
+    padding:10px;
+    font-size:30px;
+    color:white;
+    text-decoration:none;
+}
+.menu > nav a:hover{
+    background-color:rgb(127, 187, 147);
+}
+.menu > nav img{
+    width:25px;
+    height: 25px;
+}
+
+#logo{
+    widows: 40px;
+    height: 35px;
+}
+.menu {
+    display: flex;
+    background-color:#5d8a65;
+    width: 2000px;
+    height: 55px;   
+}
+body{
+    background-color: rgb(90, 185, 114);
+}
+.top2 >nav {
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.top2 >nav a{
+    color: rgb(229, 240, 240);
+    background-color: rgb(103, 165, 141);
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+
+
+.container li:hover .left {
+    z-index:1;
+    opacity:1;
+}
+.container {
+    display: flex;
+    margin: 10;
+    padding: 0;
+}
+#tab1 ul{
+    padding: 10px;
+    margin-top: none;
+    list-style-type: none;
+    background-color: azure;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+}
+#tab2 ul{
+    padding: 10px;
+    list-style-type: none;
+    background-color: azure;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+}
+#tab3 ul{
+    padding: 10px;
+    background-color: azure;
+    margin-left: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+}
+#tab4 ul{
+    padding: 10px;
+    background-color: azure;
+    margin-left: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+
+}
