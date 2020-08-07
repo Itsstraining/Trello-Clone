@@ -63,77 +63,62 @@ input[type=text]:focus {
     width: 30%;
     display: flex;
     justify-content: flex-end;
+    margin-right: 5px;
 }
 
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 80px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #064579;
-}
-
-.sidenav .sidenav-info:hover {
-    background-color: #D1F88C;
-}
-
-.mainSrceen {
-    margin-top: 25px;
-    margin-left: 140px;
-    padding: 0px 10px;
-}
-
-.iconheader {
-    line-height: 10px;
-    margin-right: 10px;
-}
-
-.topic {
-    width: 200px;
-    height: 100px;
-    background: green;
-    border-radius: 5%;
+.icon_Ten {
     display: flex;
+    justify-content: center;
+    background-color: #f4f5f7;
+    font-size: 70px;
 }
 
-.topic:hover {
-    background: #D1F88C;
+.iconAvatar {
+    border-radius: 50%;
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 30px;
+    margin-right: 15px
 }
 
-.chu {
-    font-size: 20px;
-    color: white;
-    background-color: red;
+.tag {
+    display: flex;
+    justify-content: center;
 }
 
-.cardContainer {
-    width: 200px;
-    height: 150px;
-    background-color: #A7D8D4;
-    cursor: pointer;
+.line {
+    width: 60%;
+    height: 1px;
+    background: black;
 }
 
-.cardTitle {
-    word-wrap: break-word;
+.hinh {
+    width: 10px;
+    height: 10px;
 }
 
-.cardContainer:hover {
-    background-color: aquamarine;
+.info {
+    width: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.promotion {
+    width: 430px;
+}
+
+.box {
+    width: 98%;
+}
+
+.textHeader {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #0c3953;
 }
 
 .button {
@@ -145,11 +130,14 @@ input[type=text]:focus {
     margin-left: 5px;
 }
 
-.sidenav-info-cre {
-    background-color: white;
-    opacity: 0.4;
+.bnt-tag {
+    background-color: #DDF2FF;
+    border: none;
+    outline: none;
+    height: 50px;
+    cursor: pointer;
 }
 
-.sidenav-info-cre:hover {
-    background-color: lightgrey;
+.bnt-tag:focus {
+    background-color: white;
 }
