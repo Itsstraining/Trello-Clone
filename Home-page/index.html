@@ -1,72 +1,78 @@
 <head>
-<title> Trang chủ | Trello</title>
-<link rel ="stylesheet" href="../Home/styles/stylehome.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="icon" href="../Home/assets/trello.png">
+    <title> Trang chủ | Trello</title>
+    <link rel="stylesheet" href="../Home/styles/stylehome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="../Home/assets/trello.png">
 </head>
+
 <body>
     <div class="menu">
         <nav>
-            <a  href="#"><img  src="../Home/assets/app.png"></a> 
-            <a href="#"><img src ="../Home/assets/home-run.png"></a> 
+            <a href="#"><img src="../Home/assets/app.png"></a>
+            <a href="#"><img src="../Home/assets/home-run.png"></a>
             <a href="#"><img src="../Home/assets/multiple.png"></a>
             <input type="text" name="search" placeholder="" />
             <a href="#" style=" margin-left: 500px;
-            margin-right: 500px;"><img id="logo" src="../Home/assets/trello (1).png" ></a> 
-            <a href="#"><img src="../Home/assets/add.png" ></a>
-            <a href="#"><img src="../Home/assets/info.png" ></a>
-            <a href="#"><img src="../Home/assets/notification.png" ></a>
-            <a href="#"><img src="../Home/assets/user.png" ></a>
-       </nav>
+            margin-right: 500px;"><img id="logo" src="../Home/assets/trello (1).png"></a>
+            <a href="#"><img src="../Home/assets/add.png"></a>
+            <a href="#"><img src="../Home/assets/info.png"></a>
+            <a href="#"><img src="../Home/assets/notification.png"></a>
+            <a href="#"><img src="../Home/assets/user.png"></a>
+        </nav>
     </div>
     <div class="container">
         <div id="left">
             <ul>
-                <li><a  type="button" name="show" onclick="hien2()">Bảng</a></li>
+                <li><a type="button" name="show" onclick="hien2()">Bảng</a></li>
                 <li><a href="#">Mẫu</a></li>
                 <li><a type="button" name="show" onclick="hien()">Trang chủ</a></li>
                 <li>Các Nhóm</li>
                 <li><a href="#">Tạo nhóm</a></li>
-              </ul>
+            </ul>
         </div>
         <div id="center">
             <div id="hide1">
-            <ul>
-            <li><img src="../Home/assets/doggg.png"></li>
-            </ul>
+                <ul>
+                    <li><img src="../Home/assets/doggg.png"></li>
+                </ul>
             </div>
-            <div id="hide2"> 
+            <div id="hide2">
                 <ul>
                     <li>Đã xem gần đây</li>
-                    <li style="height: 100px;margin-right:300px;background-color: rgb(46, 134, 90);margin-top:10px"><a href="../Board/index.html"  >Chào mừng đến với Trello</a></li>
+                    <li style="height: 100px;margin-right:300px;background-color: rgb(46, 134, 90);margin-top:10px"><a href="../Board/index.html">Chào mừng đến với Trello</a></li>
                     <li style="margin-top: 20px">Bảng cá nhân</li>
                     <div id="con">
-                    <div><li style="margin-right:100px ; height: 100px;background-color: rgb(46, 134, 90);"><a href="../Board/index.html">Chào mừng đến với Trello</a></li></div>
-                    <div><li style="margin-left: 0px; background-color: rgb(152, 164, 165);widows: 150px;height: 100px;"><a href="#"> Tạo bảng mới</a> </div></li>
+                        <div>
+                            <li style="margin-right:100px ; height: 100px;background-color: rgb(46, 134, 90);"><a href="../Board/index.html">Chào mừng đến với Trello</a></li>
+                        </div>
+                        <div>
+                            <li style="margin-left: 0px; background-color: rgb(152, 164, 165);widows: 150px;height: 100px;"><a href="#"> Tạo bảng mới</a> </div>
+                        </li>
                     </div>
                 </ul>
             </div>
         </div>
         <div id="right">
             <ul>
-            <li>Đã xem gần đây</li>
-            <li><a href="../Board/index.html">Chào mừng đến với Trello! </a></li>
-            <li>LIÊN KẾT</li>
-            <li><a href="#">Tạo bảng</a></li>
+                <li>Đã xem gần đây</li>
+                <li><a href="../Board/index.html">Chào mừng đến với Trello! </a></li>
+                <li>LIÊN KẾT</li>
+                <li><a href="#">Tạo bảng</a></li>
             </ul>
         </div>
     </div>
     <script>
-        function hien(){
+        function hien() {
             document.getElementById("hide1").style.display = "block";
             document.getElementById("hide2").style.display = "none";
         }
-        function hien2(){
+
+        function hien2() {
             document.getElementById("hide2").style.display = "block";
             document.getElementById("hide1").style.display = "none";
         }
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
