@@ -128,6 +128,8 @@ input[type=text]:focus {
     border: 1px solid #000000;
     cursor: pointer;
     margin-left: 5px;
+    border-radius: 5px 5px 5px 5px;
+    line-height: 2em
 }
 
 .bnt-tag {
@@ -136,6 +138,7 @@ input[type=text]:focus {
     outline: none;
     height: 50px;
     cursor: pointer;
+    border-radius: 7px 7px 0px 0px;
 }
 
 .bnt-tag:focus {
