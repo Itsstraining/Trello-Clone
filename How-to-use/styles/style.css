@@ -4,9 +4,9 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
-    
+    align-items: center;
     text-align: left;
-    
+   
     box-sizing: border-box;
 }
 .content1{

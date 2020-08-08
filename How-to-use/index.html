@@ -19,17 +19,17 @@
             text-align: center;" class="content">
                 <h1>Chào mừng đến với Trello!</h1>
                 <p>Chào mừng đến với Trello!
-                    Bạn có thể sắp xếp mọi thứ bằng bảng Trello(điều đó ở bên dưới).
+                    Bạn có thể sắp xếp mọi thứ bằng bảng Trello (điều đó ở bên dưới).
                     Bắt đầu bằng cách đặt tên bảng của bạn, điều gì đó liên quan đến dự án bạn đang làm việc, hoặc những
                     gì bạn cần làm.</p>
-               
+               <img src="./images/Annotation 2020-08-05 152907.png" alt="">
                 <form class="quick-text" method="POST" action="/text_redirect">
-                     <input name="ex" class="favorite" type="text" placeholder="begin with your favorite">
+                     <input style="width: 503px; height: 35px;margin: 5%;" name="ex" class="favorite" type="text" placeholder="begin with your favorite">
                 </form>
-                <img src="./images/Annotation 2020-08-05 152907.png" alt="">
+                
            
             </div>
-            <button id="task1" onclick="task(this.id)">tiếp nào</button>
+            
             <div id="task2" style="display: flex;justify-content: flex-start;flex-direction: row;">
                
                 <div class="content1" style="display: inline-block;">
@@ -46,10 +46,10 @@
                     </ul>
                     <p>Tiếp tục và đặt lại tên các danh sách của bạn nếu bạn muốn!</p>
                 </div>
-                <img src="./images/Annotation 2020-08-06 090734.png" alt=""> 
+                <img style="margin: 2%;" src="./images/Annotation 2020-08-06 090734.png" alt=""> 
                 
             </div>
-            <button id="task2" onclick="task(this.id)">chuyển tiếp</button>
+            
 
             <div id="task3" style="display: flex;justify-content: flex-start;flex-direction: row;">
                 
@@ -63,16 +63,16 @@
                         Thêm tiêu đề cho một số thẻ trong Những việc cần làm danh sách của bạn:</p>
                     <form class="quick-text" method="POST" action="/text_redirect">
                         <ul>
-                            <li><input name="Vd" class="list" type="text" placeholder="Vd: đặt vé máy bay"></li>
-                            <li><input name="Vd" class="list" type="text" placeholder="Vd: tìm khách sạn"></li>
-                            <li><input name="Vd" class="list" type="text" placeholder="Vd: gọi người nuôi chó"></li>
+                            <li><input style="width: 503px; height: 35px;" name="Vd" class="list" type="text" placeholder="Vd: đặt vé máy bay"></li>
+                            <li><input style="width: 503px; height: 35px;" name="Vd" class="list" type="text" placeholder="Vd: tìm khách sạn"></li>
+                            <li><input style="width: 503px; height: 35px;" name="Vd" class="list" type="text" placeholder="Vd: gọi người nuôi chó"></li>
                         </ul>
                     </form>
                 </div>
                 
 
             </div>
-            <button id="task3" onclick="task(this.id)">tiếp tục thôi</button>
+           
 
 
             <div id="task4" style="display: flex;justify-content: center;flex-direction: column;">
@@ -88,11 +88,11 @@
 
                         Bắt đầu bằng cách thêm mục danh sách công việc vào thẻ của bạn:</p>
                     <form class="quick-text" method="POST" action="/text_redirect">
-                        <li><input name="Vd" class="list" type="text" placeholder="Vd: Làm việc gì đó..."></li>
+                        <li><input style="width: 503px; height: 35px;" name="Vd" class="list" type="text" placeholder="Vd: Làm việc gì đó..."></li>
                     </form>
                 </div>
             </div>
-            <button id="task4" onclick="task(this.id)">cuối cùng là</button>
+            
 
             <div id="task5" class="content4"
                 style="display: inline-block;display:flex;flex-direction: column;text-align: center;">
@@ -101,7 +101,7 @@
                     style="margin: 0 auto;">
                 <p>Bây giờ bạn đã hiểu những điều cơ bản của bảng, danh sách và thẻ, bạn có thể sử dụng Trello để
                     phù hợp với nhu cầu của bạn, bất kể nhu cầu đó là gì!</p>
-                <button class="bnt-begin"><a href="" target="_blank">Giờ bạn đã là dân chuyên! Hãy tiếp tục xây
+                <button class="bnt-begin"><a href="../dashboard-page/dashboard.html" target="_blank">Giờ bạn đã là dân chuyên! Hãy tiếp tục xây
                         dựng bảng của bạn</a></button>
 
             </div>
@@ -111,14 +111,14 @@
         </div>
     </div>
     <script>
-       function task(task) {
-        var x = document.getElementById(task);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-             }
-    }
+    //    function task(task) {
+    //     var x = document.getElementById(task);
+    //     if (x.style.display === "none") {
+    //         x.style.display = "block";
+    //     } else {
+    //         x.style.display = "none";
+    //          }
+    // }
 
 
       
